@@ -5,3 +5,4 @@ export { default as keedidai } from './keedidai.png';
 export { default as pandora } from './pandora.png';
 export { default as privee } from './privee.png';
 export { default as CIB } from './CIB.png';
+export { default as CIB2 } from './CIB2.png';

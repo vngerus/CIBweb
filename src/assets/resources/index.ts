@@ -6,3 +6,4 @@ export { default as bg2 } from './background.avif';
 export { default as bgcircle } from './bigcircle.png';
 export { default as bgcircles } from './circles.avif';
 export { default as bgpurple } from './bgpurple.png';
+export { default as world } from './world.mp4';
