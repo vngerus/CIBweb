@@ -4,6 +4,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { GiTrade } from "react-icons/gi";
 import { SiHiveBlockchain } from "react-icons/si";
 import { TbHealthRecognition } from "react-icons/tb";
+
 import { Angelsmith, avoworks, aws, Cristaltavarez, DeniseWexman, Est, Fab, FABlatam, Flacma, g1, g2, g3, GabrielYannsen, GBA, GuillermoCid, hfmito, highline, iny20, Jrc, kamatera, keedidai, mariecurie, micro, nature, pandora, privee, RodrigoMolina, sebastianperez, Udc, uRecoleta, VerdeActivo } from "../assets";
 
 const Linear = () => (
@@ -13,7 +14,7 @@ const Linear = () => (
 export const wwd = [
     {
         id: 1,
-        img: {g3},
+        img: g3,
         icon: <CgSmartphoneChip className="h-8 w-8 text-neutral-500" />,
         className: "md:col-span-1",
         title: "Innovative Solutions & Strategic Consulting.",
@@ -21,7 +22,7 @@ export const wwd = [
     },
     {
         id: 2,
-        img: {g1},
+        img: g1,
         icon: <TbWorldCode className="h-8 w-8 text-neutral-500" />,
         className: "md:col-span-1",
         title: "Tokenization & Smart Contracts.",
@@ -29,7 +30,7 @@ export const wwd = [
     },
     {
         id: 3,
-        img: {g3},
+        img: g3,
         icon: <GiTrade className="h-8 w-8 text-neutral-500" />,
         className: "md:col-span-1",
         title: "Finance, Banking & ReFI.",
@@ -37,7 +38,7 @@ export const wwd = [
     },
     {
         id: 4,
-        img: {g2},
+        img: g2,
         icon: <SiHiveBlockchain className="h-8 w-8 text-neutral-500" />,
         className: "md:col-span-1",
         title: "Supply Chain & Crime Prevention.",
@@ -45,7 +46,7 @@ export const wwd = [
     },
     {
         id: 5,
-        img: {g2},
+        img: g2,
         icon: <TbHealthRecognition className="h-8 w-8 text-neutral-500" />,
         className: "md:col-span-1",
         title: "Healthcare & Education.",
@@ -53,7 +54,7 @@ export const wwd = [
     },
     {
         id: 6,
-        img: {g1},
+        img: g1,
         icon: <FaPeopleGroup className="h-8 w-8 text-neutral-500" />,
         className: "md:col-span-1",
         title: "Holistic Blockchain Integration.",
@@ -63,154 +64,181 @@ export const wwd = [
 
 export const projects = [
     {
-        img: {privee},
+        id: 1,
+        img: privee,
         link: "https://privee.host",
+        category: "branding",
+        title: "Privee",
+        description: "Project description here..."
     },
     {
-        img: {hfmito},
+        id: 2,
+        img: hfmito,
         link: "https://buy.havingfun.store",
+        category: "marketing",
+        title: "HF Mito",
+        description: "Project description here..."
     },
     {
-        img: {keedidai},
+        id: 3,
+        img: keedidai,
         link: "https://keeidai.com",
+        category: "development",
+        title: "Keedidai",
+        description: "Project description here..."
     },
-
     {
-        img: {avoworks},
+        id: 4,
+        img: avoworks,
         link: "https://avoworks.com",
+        category: "design",
+        title: "Avoworks",
+        description: "Project description here..."
     },
     {
-        img: {pandora},
+        id: 5,
+        img: pandora,
         link: "https://pandorath.com",
+        category: "branding",
+        title: "Pandora",
+        description: "Project description here..."
     },
     {
-        img: {iny20},
+        id: 6,
+        img: iny20,
         link: "https://iny.com",
+        category: "marketing",
+        title: "Iny20",
+        description: "Project description here..."
     },
 ];
 
 export const brand1 = [
     {
-        img: {kamatera}
+        img: kamatera
     },
     {
-        img: {uRecoleta}
+        img: uRecoleta
     },
     {
-        img: {VerdeActivo}
+        img: VerdeActivo
     },
     {
-        img: {Est}
+        img: Est
     },
     {
-        img: {FABlatam}
+        img: FABlatam
     },
 ];
 export const brand2 = [
     {
-        img: {highline}
+        img: highline
     },
     {
-        img: {Jrc}
+        img: Jrc
     },
     {
-        img: {Udc}
+        img: Udc
     },
     {
-        img: {Flacma}
+        img: Flacma
     },
     {
-        img: {Fab}
+        img: Fab
     }
 ];
 
 
 export const awards = [
     {
-        img:{GBA}
+        id: 1,
+        img: GBA,
     },
     {
-        img:{mariecurie}
+        id: 2,
+        img: mariecurie,
     },
     {
-        img:{nature}
-    }
+        id: 3,
+        img: nature,
+    },
 ];
+
 
 export const footer = [
     {
-        img:{aws}
+        img: aws
     },
     {
-        img:{micro}
+        img: micro
     }
 ];
 
 export const team = [
-{
-    name: "Guillermo Cid",
-    role: "Founder",
-    description: "AI/Blockchain advocate -Earth Scientist-Creative Thinker",
-    img: {GuillermoCid},
-    icon : <Linear />,
-    social: {
-        linkedin: "#",
-        github: "#",
-    }
-},
-{
-    name: "Gabriel F. Yanssen",
-    role: "Founder",
-    description: "Sci/Social BUILDR & Founder/CEO. Antropólogo",
-    img: {GabrielYannsen},
-    social: {
-        linkedin: "#",
-        github: "#",
-    }
-},
-{
-    name: "Denise Wexman",
-    role: "Frontend Developer",
-    img: {DeniseWexman},
-    social: {
-        linkedin: "#",
-        github: "#",
-    }
-},
-{
-    name: "Angel Smith",
-    role: "Frontend Developer",
-    img: {Angelsmith},
-    social: {
-        linkedin: "#",
-        github: "#",
-    }
-},
-{
-    name: "Cristal Taveres",
-    role: "Frontend Developer",
-    img: {Cristaltavarez},
-    social: {
-        linkedin: "#",
-        github: "#",
-    }
-},
-{
-    name: "Rodrigo Molina",
-    role: "Backend Developer",
-    img: {RodrigoMolina},
-    social: {
-        linkedin: "#",
-        github: "#",
-    }
-},
-{
-    name: "Sebastian Perez",
-    role: "Backend Developer",
-    img: {sebastianperez},
-    social: {
-        linkedin: "#",
-        github: "#",
-    }
-},
+    {
+        name: "Guillermo Cid",
+        role: "Founder",
+        description: "AI/Blockchain advocate -Earth Scientist-Creative Thinker",
+        img: GuillermoCid,
+        icon: <Linear />,
+        social: {
+            linkedin: "#",
+            github: "#",
+        }
+    },
+    {
+        name: "Gabriel F. Yanssen",
+        role: "Founder",
+        description: "Sci/Social BUILDR & Founder/CEO. Antropólogo",
+        img: GabrielYannsen,
+        social: {
+            linkedin: "#",
+            github: "#",
+        }
+    },
+    {
+        name: "Denise Wexman",
+        role: "Frontend Developer",
+        img: DeniseWexman,
+        social: {
+            linkedin: "#",
+            github: "#",
+        }
+    },
+    {
+        name: "Angel Smith",
+        role: "Frontend Developer",
+        img: Angelsmith,
+        social: {
+            linkedin: "#",
+            github: "#",
+        }
+    },
+    {
+        name: "Cristal Taveres",
+        role: "Frontend Developer",
+        img: Cristaltavarez,
+        social: {
+            linkedin: "#",
+            github: "#",
+        }
+    },
+    {
+        name: "Rodrigo Molina",
+        role: "Backend Developer",
+        img: RodrigoMolina,
+        social: {
+            linkedin: "#",
+            github: "#",
+        }
+    },
+    {
+        name: "Sebastian Perez",
+        role: "Backend Developer",
+        img: sebastianperez,
+        social: {
+            linkedin: "#",
+            github: "#",
+        }
+    },
 ];

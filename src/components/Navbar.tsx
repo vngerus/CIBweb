@@ -9,15 +9,14 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className=" text-white fixed w-full z-50">
+    <nav className=" text-white fixed w-full z-50 py-10">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-center h-16">
           <div className="flex items-center bg-gray-700 p-2 rounded-full">
             <img className="h-8 w-auto mx-4" src={CIB2} alt="Logo" />
             <div className="hidden sm:flex space-x-4">
               <a href="#" className="text-gray-300 hover:bg-gray-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
-              <a href="#" className="text-gray-300 hover:bg-gray-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium">What We Do</a>
-              <a href="#" className="text-gray-300 hover:bg-gray-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+              <a href="#" className="text-gray-300 hover:bg-gray-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Our Stars</a>
               <a href="#" className="relative bg-inypurple text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-purple-900 transition duration-300">
                 Contact
                 <span className="absolute inset-0 border-2 border-white-500 rounded-full transform scale-105 opacity-50"></span>
