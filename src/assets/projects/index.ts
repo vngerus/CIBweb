@@ -4,3 +4,4 @@ export { default as iny20 } from './iny20.png';
 export { default as keedidai } from './keedidai.png';
 export { default as pandora } from './pandora.png';
 export { default as privee } from './privee.png';
+export { default as CIB } from './CIB.png';

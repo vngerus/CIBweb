@@ -5,3 +5,4 @@ export { default as Partners } from './Partners';
 export { default as Projects } from './Projects';
 export { default as Team } from './Team';
 export { default as WhatWeDo } from './WhatWeDo';
+export { default as Navbar } from './Navbar';
