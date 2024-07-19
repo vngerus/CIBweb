@@ -6,3 +6,5 @@ export { default as Projects } from './Projects';
 export { default as Team } from './Team';
 export { default as WhatWeDo } from './WhatWeDo';
 export { default as Navbar } from './Navbar';
+export { default as Stars } from './Stars';
+export { default as Contact } from './Contact';

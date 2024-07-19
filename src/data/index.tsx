@@ -5,7 +5,7 @@ import { GiTrade } from "react-icons/gi";
 import { SiHiveBlockchain } from "react-icons/si";
 import { TbHealthRecognition } from "react-icons/tb";
 
-import { Angelsmith, avoworks, aws, Cristaltavarez, DeniseWexman, Est, Fab, FABlatam, Flacma, g1, g2, g3, GabrielYannsen, GBA, GuillermoCid, hfmito, highline, iny20, Jrc, kamatera, keedidai, mariecurie, micro, nature, pandora, privee, RodrigoMolina, sebastianperez, Udc, uRecoleta, VerdeActivo } from "../assets";
+import { Anderson, Angelsmith, avoworks, aws, Cristaltavarez, DeniseWexman, Est, Fab, FABlatam, Flacma, g1, g2, g3, GabrielYannsen, GBA, GuillermoCid, hfmito, highline, iny20, Jrc, kamatera, keedidai, mariecurie, micro, nature, pandora, privee, Ramesh, Rick, RodrigoMolina, sebastianperez, Sindhu, Udc, uRecoleta, VerdeActivo } from "../assets";
 
 const Linear = () => (
     <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl dark:bg-dot-white/[0.2] bg-dot-black/[0.2] [mask-image:radial-gradient(ellipse_at_center,white,transparent)] border border-transparent dark:border-white/[0.2] bg-neutral-100 dark:bg-black"></div>
@@ -174,6 +174,45 @@ export const footer = [
     }
 ];
 
+export const stars = [
+    {
+        name: 'Mr. Brian Anderson',
+        img: Anderson,
+        description: 'Cybersecurity Guru | Technical Editor',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/',
+            profesionalweb: '#'
+        }
+    },
+    {
+        name: 'Dr. Sindhu Bashkar Forbe',
+        img: Sindhu,
+        description: 'Council Member, Visionary Chairman | EST Global, EST FAB, ESTAGRX, RAHA, Aspagteq.',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/dr-sindhu-bhaskar-55a84568/',
+            profesionalweb: 'http://www.estglobalinc.com',
+        }
+    },
+    {
+        name: 'Rick Venegas',
+        img: Rick,
+        description: 'Business Development, Growth & Strategy Expert | + 15 years of experience',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/ricardo-vanegas/', 
+            profesionalweb: 'https://www.delogik.io',
+        }
+    },
+    {
+        name: 'Ramesh Shrikonda',
+        img: Ramesh,
+        description: 'Business Development Master | Coinstore official',
+        social: {
+            linkedin: 'https://www.linkedin.com/in/ramesh-shrikonda-01130a78/',
+            profesionalweb: 'https://www.coinstore.com'
+        }
+    },
+]
+
 export const team = [
     {
         name: "Guillermo Cid",
@@ -189,7 +228,7 @@ export const team = [
     {
         name: "Gabriel F. Yanssen",
         role: "Founder",
-        description: "Sci/Social BUILDR & Founder/CEO. Antropólogo",
+        description: "Sci/Social BUILDR & Founder/CEO. \nAntropólogo",
         img: GabrielYannsen,
         social: {
             linkedin: "#",

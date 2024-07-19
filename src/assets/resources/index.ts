@@ -8,3 +8,4 @@ export { default as bgcircles } from './circles.avif';
 export { default as bgpurple } from './bgpurple.png';
 export { default as world } from './world.mp4';
 export { default as people } from './people.png';
+export { default as people2 } from './people2.png';
